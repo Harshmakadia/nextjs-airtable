@@ -7,17 +7,6 @@ import Alert from "react-bootstrap/Alert";
 import axios from "axios";
 
 class FormPage extends React.Component {
-  constructor(props) {
-    super();
-    this.state = {
-      formData: {},
-      showMessage: false,
-      showMessageText: ""
-    };
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleChange = this.handleChange.bind(this);
-  }
-
   static async getInitialProps({query}) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_NO_CODE_ENDPOINT}?tableName=${query.id}`)
     const images = await res.json();
@@ -32,6 +21,17 @@ class FormPage extends React.Component {
     return { query, questionData: mindData }
   }
 
+  constructor(props) {
+    super();
+    this.state = {
+      formData: {},
+      showMessage: false,
+      showMessageText: ""
+    };
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  
   handleSubmit(event){
     let _this = this;
       event.preventDefault();
