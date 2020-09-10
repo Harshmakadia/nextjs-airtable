@@ -1,0 +1,2903 @@
+{
+  "data": [
+    {
+      "type": "instance",
+      "subtype": "app-instance",
+      "componentId": "app",
+      "id": 4012090,
+      "isVisible": true,
+      "children": []
+    }
+  ],
+  "components": [
+    {
+      "id": "app",
+      "type": "component",
+      "subtype": "app-component",
+      "globalStyle": "// COLORS\n$theme-colors: (\n  \"primary\": #0074d9,\n  \"secondary\": #6c757d,\n  \"success\": #28a745,\n  \"danger\": #ff4136,\n  \"warning\": #ffc107,\n  \"info\": #17a2b8,\n  \"light\": #f8f9fa,\n  \"dark\": #343a40,\n  \"white\": #ffffff,\n  \"transparent\": transparent\n);\n\n// TEXT\n$font-family-sans-serif: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n$font-family-serif: Georgia, \"Times New Roman\", Times, serif;\n$font-family-base: $font-family-sans-serif;\n$font-size-base: 1rem;\n\n// BREAKPOINTS\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n);\n\n// SEE DOCS FOR MORE:\n// https://bit.ly/2sgFMdb\n\n// IMPORT BOOTSTRAP\n@import \"~bootstrap/scss/bootstrap\";",
+      "isVisible": true,
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 5900408,
+          "attributes": "{\n  // Background color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  // light, dark\n  variant: \"light\",\n  // Collapse at breakpoint\n  // sm, md, lg\n  expand: \"md\",\n\t// Logo image url\n  logo: \"https://uploads.divjoy.com/logo.svg\"\n}",
+          "isVisible": true,
+          "libraryName": "Navbar Custom",
+          "id": 2572937,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "variant",
+              "value": "light",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "expand",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "logo",
+              "value": "https://uploads.divjoy.com/logo.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": []
+        },
+        {
+          "type": "pages",
+          "isVisible": true,
+          "id": 2387893,
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "page-instance",
+              "componentId": 1762014,
+              "isVisible": true,
+              "id": 651483,
+              "children": []
+            },
+            {
+              "type": "instance",
+              "subtype": "page-instance",
+              "componentId": 7875133,
+              "isVisible": true,
+              "id": 7989230,
+              "children": []
+            },
+            {
+              "type": "instance",
+              "subtype": "page-instance",
+              "componentId": 1980029,
+              "isVisible": true,
+              "id": 8401202,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "instance",
+          "componentId": 4644163,
+          "attributes": "{\n  // Background and text color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  textColor: \"dark\",\n  // sm, md, lg\n  size: \"md\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n\t// Text content\n  description: 'A short description of what you do here',\n  copyright: '© 2019 Company',\n  // Logo image URL\n  logo: 'https://uploads.divjoy.com/logo.svg',\n}",
+          "isVisible": true,
+          "libraryName": "Footer",
+          "id": 253204,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "textColor",
+              "value": "dark",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImage",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "1",
+              "isString": false,
+              "type": "NumericLiteral"
+            },
+            {
+              "key": "description",
+              "value": "A short description of what you do here",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "copyright",
+              "value": "© 2019 Company",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "logo",
+              "value": "https://uploads.divjoy.com/logo.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "nameFormatted": "MyApp",
+      "nameStyleModule": "MyApp",
+      "modulePath": "src/pages/_app"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Nav",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Nav",
+        "default": "Nav"
+      },
+      "id": 8654202,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Nav",
+      "nameStyleModule": "Nav",
+      "modulePath": "react-bootstrap/Nav"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Nav.Link",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Nav",
+        "default": "Nav"
+      },
+      "id": 2031462,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Nav.Link",
+      "nameStyleModule": "Nav.Link",
+      "modulePath": "react-bootstrap/Nav"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Navbar",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Navbar",
+        "default": "Navbar"
+      },
+      "id": 5692101,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Navbar",
+      "nameStyleModule": "NavbarComponent",
+      "modulePath": "react-bootstrap/Navbar"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Navbar.Brand",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Navbar",
+        "default": "Navbar"
+      },
+      "id": 3474382,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Navbar.Brand",
+      "nameStyleModule": "Navbar.Brand",
+      "modulePath": "react-bootstrap/Navbar"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Navbar.Toggle",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Navbar",
+        "default": "Navbar"
+      },
+      "id": 7703235,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Navbar.Toggle",
+      "nameStyleModule": "Navbar.Toggle",
+      "modulePath": "react-bootstrap/Navbar"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Navbar.Collapse",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Navbar",
+        "default": "Navbar"
+      },
+      "id": 1064541,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Navbar.Collapse",
+      "nameStyleModule": "Navbar.Collapse",
+      "modulePath": "react-bootstrap/Navbar"
+    },
+    {
+      "type": "component",
+      "name": "Navbar Custom",
+      "id": 5900408,
+      "tags": [
+        "Navigation",
+        "Popular"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "subtype": "external-instance",
+          "componentId": 5692101,
+          "id": 5895121,
+          "attributes": "{\n\tbg: props.bg,\n  variant: props.variant,\n  expand: props.expand\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "variant",
+              "value": "props.variant",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "expand",
+              "value": "props.expand",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 7971627,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 3474382,
+                  "id": 4897905,
+                  "attributes": "{\n\thref: \"/\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "href",
+                      "value": "/",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "element",
+                      "tagName": "img",
+                      "attributes": "{\n  src: props.logo,\n  alt: \"Logo\",\n  height: \"30\"\n}",
+                      "classNames": [
+                        "d-inline-block",
+                        "align-top"
+                      ],
+                      "id": 2931874,
+                      "isVisible": true,
+                      "image": "",
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "src",
+                          "value": "props.logo",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "alt",
+                          "value": "Logo",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "height",
+                          "value": "30",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 7703235,
+                  "id": 4604838,
+                  "attributes": "{\n\t'aria-controls': \"navbar-nav\",\n  className: \"border-0\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "aria-controls",
+                      "value": "navbar-nav",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "border-0",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 1064541,
+                  "id": 9118120,
+                  "attributes": "{\n\tid: \"navbar-nav\",\n  className: \"justify-content-end\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "id",
+                      "value": "navbar-nav",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "justify-content-end",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 8654202,
+                      "id": 823956,
+                      "attributes": "{\n\tclassName: \"mr-1\"\n}",
+                      "isVisible": true,
+                      "propsArray": [
+                        {
+                          "key": "className",
+                          "value": "mr-1",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "type": "instance",
+                          "subtype": "external-instance",
+                          "componentId": 2031462,
+                          "id": 5706465,
+                          "isVisible": true,
+                          "attributes": "{\n\thref: \"/choose\",\n  active: false\n}",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/choose",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "active",
+                              "value": "false",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": 7257795,
+                              "isVisible": true,
+                              "text": "Template",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "instance",
+                          "subtype": "external-instance",
+                          "componentId": 2031462,
+                          "id": 7822533,
+                          "attributes": "{\n\thref: \"/pricing\",\n  active: false\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/pricing",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "active",
+                              "value": "false",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Pricing",
+                              "id": 3136913,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "instance",
+                          "subtype": "external-instance",
+                          "componentId": 2031462,
+                          "id": 1797353,
+                          "attributes": "{\n\thref: \"/faq\",\n  active: false\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/faq",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "active",
+                              "value": "false",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "FAQ",
+                              "id": 8821761,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "NavbarCustom",
+      "nameStyleModule": "NavbarCustom",
+      "modulePath": "src/components/NavbarCustom"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Container",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Container",
+        "default": "Container"
+      },
+      "id": 2178390,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Container",
+      "nameStyleModule": "ContainerComponent",
+      "modulePath": "react-bootstrap/Container"
+    },
+    {
+      "type": "component",
+      "name": "Section",
+      "id": 1219852,
+      "code": "\tconst {\n    bg, \n    textColor, \n    bgImage,\n    bgImageOpacity,\n    bgImageRepeat,\n    className,\n    children,\n    ...otherProps \n  } = props;\n",
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "section",
+          "id": 6386747,
+          "attributes": "{\n\t...otherProps\n}",
+          "classNames": [
+            "py-5",
+            "position-relative"
+          ],
+          "classNameExpressions": [
+            {
+              "js": "props.bg",
+              "classNames": [
+                "bg-{props.bg}"
+              ]
+            },
+            {
+              "js": "props.textColor",
+              "classNames": [
+                "text-{props.textColor}"
+              ]
+            },
+            {
+              "js": "className",
+              "classNames": [
+                "{className}"
+              ]
+            }
+          ],
+          "style": "// Ensure container is above bgImage\n.container {\n  position: relative;\n}\n\n// Add light border if two white\n// sections next to each other.\n.bg-white + &.bg-white {\n  border-top: 1px solid #F0F0F0;\n}",
+          "isVisible": true,
+          "image": "",
+          "name": "",
+          "propsArray": [
+            {
+              "key": null,
+              "value": "otherProps",
+              "isString": false,
+              "type": "SpreadElement"
+            }
+          ],
+          "children": [
+            {
+              "type": "if",
+              "js": "bgImage",
+              "id": 5756517,
+              "isVisible": true,
+              "children": [
+                {
+                  "type": "instance",
+                  "componentId": 1986700,
+                  "attributes": "{\n\timage: bgImage,\n  opacity: bgImageOpacity,\n  repeat: bgImageRepeat\n}",
+                  "id": 4826940,
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "image",
+                      "value": "bgImage",
+                      "isString": false,
+                      "type": "Identifier"
+                    },
+                    {
+                      "key": "opacity",
+                      "value": "bgImageOpacity",
+                      "isString": false,
+                      "type": "Identifier"
+                    },
+                    {
+                      "key": "repeat",
+                      "value": "bgImageRepeat",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tagName": "div",
+              "id": 9929135,
+              "classNameExpressions": [
+                {
+                  "js": "[\"md\", \"lg\"].includes(props.size)",
+                  "classNames": [
+                    "py-md-5"
+                  ]
+                },
+                {
+                  "js": "props.size === \"lg\"",
+                  "classNames": [
+                    "my-md-5"
+                  ]
+                }
+              ],
+              "isVisible": true,
+              "attributes": "{\n\n}",
+              "image": "",
+              "name": "",
+              "classNames": [],
+              "style": "",
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "children",
+                  "id": 7508953,
+                  "isVisible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "Section",
+      "nameStyleModule": "SectionComponent",
+      "modulePath": "src/components/Section"
+    },
+    {
+      "type": "component",
+      "name": "Background Image",
+      "id": 1986700,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "code": "",
+      "children": [
+        {
+          "type": "element",
+          "tagName": "div",
+          "attributes": "{\n  style: {\n    '--image': `url(${props.image})`,\n    '--opacity': props.opacity\n  }\n}",
+          "style": "// Set using CSS vars defined\n// in element inline style.\nbackground-image: var(--image);\nopacity: var(--opacity);\n// Fill parent container\nbackground-position: center center;\nbackground-size: cover;\ntop: 0;\nleft: 0;\nbottom: 0;\nright: 0;\nposition: absolute;\n// Place under other elements\nz-index: 0;\n\n// Make it a repeating pattern\n&.repeat {\n  background-size: auto;\n  background-position: 0% 0%;\n  background-repeat: true;\n}",
+          "id": 3881161,
+          "classNameExpressions": [
+            {
+              "js": "props.repeat",
+              "classNames": [
+                "repeat"
+              ]
+            }
+          ],
+          "isVisible": true,
+          "image": "",
+          "name": "",
+          "classNames": [],
+          "propsArray": [
+            {
+              "key": "style",
+              "value": "{\n  '--image': `url(${props.image})`,\n  '--opacity': props.opacity\n}",
+              "isString": false,
+              "type": "ObjectExpression"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "nameFormatted": "BackgroundImage",
+      "nameStyleModule": "BackgroundImage",
+      "modulePath": "src/components/BackgroundImage"
+    },
+    {
+      "type": "component",
+      "id": 4644163,
+      "name": "Footer",
+      "tags": [
+        "Footer",
+        "Popular"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 1219852,
+          "id": 5496536,
+          "attributes": "{\n\tbg: props.bg,\n  textColor: props.textColor,\n  size: props.size,\n  bgImage: props.bgImage,\n  bgImageOpacity: props.bgImageOpacity,\n  className: \"footer\"\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "textColor",
+              "value": "props.textColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImage",
+              "value": "props.bgImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "props.bgImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "className",
+              "value": "footer",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 2857930,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "div",
+                  "style": "display: flex;\nflex-wrap: wrap;\n> div {\n  display: flex;\n  flex: none;\n  justify-content: center;\n  width: 100%;\n  margin-bottom: 24px;\n}\n\n.brand {\n  img {\n    display: block;\n    height: 32px;\n  }\n}\n\n.social {\n  align-items: flex-end;\n}\n\n.social, .links {\n  a {\n    color: inherit;\n    &:hover {\n      opacity: 0.8;\n    }\n\n    &:not(:first-of-type) {\n      margin-left: 20px;\n    }\n  }\n}\n\n// Tablet and up\n@media screen and (min-width: 768px) {\n  > div {\n    flex: 50%;\n  }\n\n  .left {\n    justify-content: flex-start;\n  }\n\n  .right {\n    justify-content: flex-end;\n  }\n  \n  // Move links to end (bottom right)\n  // Swaps position with social\n  .links {\n    order: 1;\n  }\n}",
+                  "id": 9137580,
+                  "name": "Inner",
+                  "isVisible": true,
+                  "attributes": "{\n\n}",
+                  "image": "",
+                  "classNames": [],
+                  "classNameExpressions": [],
+                  "propsArray": [],
+                  "children": [
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "brand",
+                        "left"
+                      ],
+                      "id": 4694183,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "image": "",
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": "",
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n  href: '/' \n}",
+                          "id": 4960806,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "img",
+                              "attributes": "{\n  src: props.logo,\n  alt: \"Logo\"\n}",
+                              "id": 4140551,
+                              "isVisible": true,
+                              "image": "",
+                              "name": "",
+                              "classNames": [],
+                              "classNameExpressions": [],
+                              "style": "",
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "props.logo",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "Logo",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "links",
+                        "right"
+                      ],
+                      "id": 8371540,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "image": "",
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": "",
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: '/about'\n}",
+                          "id": 1879924,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/about",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "About",
+                              "id": 9452607,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: '/faq',\n}",
+                          "id": 6446098,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/faq",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "FAQ",
+                              "id": 3244183,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: '/contact',\n}",
+                          "id": 2565120,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/contact",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Contact",
+                              "id": 1956482,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n  target: \"_blank\",\n  href: \"https://medium.com\",\n  rel: \"noopener noreferrer\"\n}",
+                          "id": 9988760,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "target",
+                              "value": "_blank",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "href",
+                              "value": "https://medium.com",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "rel",
+                              "value": "noopener noreferrer",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Blog",
+                              "id": 4544242,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "social",
+                        "right"
+                      ],
+                      "id": 3810280,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "image": "",
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": "",
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: 'https://twitter.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
+                          "id": 6363101,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "https://twitter.com",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "target",
+                              "value": "_blank",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "rel",
+                              "value": "noopener noreferrer",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "span",
+                              "classNames": [
+                                "icon"
+                              ],
+                              "id": 8415390,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "image": "",
+                              "name": "",
+                              "classNameExpressions": [],
+                              "style": "",
+                              "propsArray": [],
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tagName": "i",
+                                  "classNames": [
+                                    "fab",
+                                    "fa-twitter"
+                                  ],
+                                  "id": 7564851,
+                                  "isVisible": true,
+                                  "attributes": "{\n\n}",
+                                  "image": "",
+                                  "name": "",
+                                  "classNameExpressions": [],
+                                  "style": "",
+                                  "propsArray": [],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: 'https://facebook.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
+                          "id": 6436254,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "https://facebook.com",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "target",
+                              "value": "_blank",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "rel",
+                              "value": "noopener noreferrer",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "span",
+                              "classNames": [
+                                "icon"
+                              ],
+                              "id": 7244421,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "image": "",
+                              "name": "",
+                              "classNameExpressions": [],
+                              "style": "",
+                              "propsArray": [],
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tagName": "i",
+                                  "classNames": [
+                                    "fab",
+                                    "fa-facebook-f"
+                                  ],
+                                  "id": 9154533,
+                                  "isVisible": true,
+                                  "attributes": "{\n\n}",
+                                  "image": "",
+                                  "name": "",
+                                  "classNameExpressions": [],
+                                  "style": "",
+                                  "propsArray": [],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "attributes": "{\n\thref: 'https://instagram.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
+                          "id": 7874949,
+                          "isVisible": true,
+                          "image": "",
+                          "name": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "https://instagram.com",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "target",
+                              "value": "_blank",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "rel",
+                              "value": "noopener noreferrer",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "span",
+                              "classNames": [
+                                "icon"
+                              ],
+                              "id": 3045136,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "image": "",
+                              "name": "",
+                              "classNameExpressions": [],
+                              "style": "",
+                              "propsArray": [],
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tagName": "i",
+                                  "classNames": [
+                                    "fab",
+                                    "fa-instagram"
+                                  ],
+                                  "id": 8307317,
+                                  "isVisible": true,
+                                  "attributes": "{\n\n}",
+                                  "image": "",
+                                  "name": "",
+                                  "classNameExpressions": [],
+                                  "style": "",
+                                  "propsArray": [],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "copyright",
+                        "left"
+                      ],
+                      "id": 1476061,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "image": "",
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": "",
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "{props.copyright}",
+                          "id": 296486,
+                          "isVisible": true,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "Footer",
+      "nameStyleModule": "FooterComponent",
+      "modulePath": "src/components/Footer"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Button",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Button",
+        "default": "Button"
+      },
+      "id": 7042691,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Button",
+      "nameStyleModule": "ButtonComponent",
+      "modulePath": "react-bootstrap/Button"
+    },
+    {
+      "type": "component",
+      "name": "Section Header",
+      "id": 5118913,
+      "code": "\t// Render nothing if no title or subtitle\n\tif (!props.title && !props.subtitle){\n    return null;\n  }\n",
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "header",
+          "id": 4892904,
+          "classNameExpressions": [
+            {
+              "js": "props.className",
+              "classNames": [
+                "{props.className}"
+              ]
+            }
+          ],
+          "style": "// Add bottom margin if element below\n&:not(:last-child){\n\tmargin-bottom: 2rem;\n}",
+          "isVisible": true,
+          "attributes": "{\n\n}",
+          "image": "",
+          "name": "",
+          "classNames": [],
+          "propsArray": [],
+          "children": [
+            {
+              "type": "if",
+              "js": "props.title",
+              "id": 3051339,
+              "isVisible": true,
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "h1",
+                  "id": 68747,
+                  "classNames": [
+                    "font-weight-bold"
+                  ],
+                  "classNameExpressions": [
+                    {
+                      "js": "props.subtitle && props.spaced",
+                      "classNames": [
+                        "mb-4"
+                      ]
+                    },
+                    {
+                      "js": "!props.subtitle",
+                      "classNames": [
+                        "mb-0"
+                      ]
+                    },
+                    {
+                      "js": "props.size",
+                      "classNames": [
+                        "h{props.size}"
+                      ]
+                    }
+                  ],
+                  "name": "Title",
+                  "isVisible": true,
+                  "attributes": "{\n\n}",
+                  "image": "",
+                  "style": "",
+                  "propsArray": [],
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "{props.title}",
+                      "id": 3096491,
+                      "isVisible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "if",
+              "js": "props.subtitle",
+              "id": 7021426,
+              "isVisible": true,
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "p",
+                  "id": 9013236,
+                  "name": "Subtitle",
+                  "style": "// Subtitle text generally isn't very long\n// so usually looks better to limit width.\nmax-width: 700px;\n// So we can have max-width but still\n// have alignment controlled by text-align.\ndisplay: inline-block;",
+                  "classNames": [
+                    "mb-0"
+                  ],
+                  "isVisible": true,
+                  "attributes": "{\n\n}",
+                  "image": "",
+                  "classNameExpressions": [],
+                  "propsArray": [],
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "{props.subtitle}",
+                      "id": 1531402,
+                      "isVisible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "SectionHeader",
+      "nameStyleModule": "SectionHeader",
+      "modulePath": "src/components/SectionHeader"
+    },
+    {
+      "type": "component",
+      "name": "Hero Section",
+      "id": 3664463,
+      "tags": [
+        "Hero"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 1219852,
+          "id": 3495226,
+          "attributes": "{\n\tbg: props.bg,\n  textColor: props.textColor,\n  size: props.size,\n  bgImage: props.bgImage,\n  bgImageOpacity: props.bgImageOpacity\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "textColor",
+              "value": "props.textColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImage",
+              "value": "props.bgImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "props.bgImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 8806024,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 9541476,
+                  "id": 98119,
+                  "attributes": "{\n\tclassName: \"align-items-center\"\n}\t",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "className",
+                      "value": "align-items-center",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 9152506,
+                      "id": 1471597,
+                      "attributes": "{\n\n}\t",
+                      "isVisible": true,
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "figure",
+                          "id": 2503205,
+                          "style": "max-width: 570px;",
+                          "name": "Image Container",
+                          "classNames": [
+                            "mx-auto"
+                          ],
+                          "isVisible": true,
+                          "attributes": "{\n\n}",
+                          "image": "",
+                          "classNameExpressions": [],
+                          "propsArray": [],
+                          "children": [
+                            {
+                              "type": "instance",
+                              "subtype": "external-instance",
+                              "componentId": 4825682,
+                              "id": 3081416,
+                              "attributes": "{\n\tsrc: props.image,\n  fluid: true\n}",
+                              "isVisible": true,
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "props.image",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "fluid",
+                                  "value": "true",
+                                  "isString": false,
+                                  "type": "BooleanLiteral"
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 9152506,
+                      "id": 9420033,
+                      "attributes": "{\n\tlg: 5,\n  className: \"offset-lg-1 mt-5 mt-lg-0 text-center text-lg-left\"\n}\t",
+                      "isVisible": true,
+                      "propsArray": [
+                        {
+                          "key": "lg",
+                          "value": "5",
+                          "isString": false,
+                          "type": "NumericLiteral"
+                        },
+                        {
+                          "key": "className",
+                          "value": "offset-lg-1 mt-5 mt-lg-0 text-center text-lg-left",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "type": "instance",
+                          "componentId": 5118913,
+                          "id": 2841849,
+                          "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  // Text size (1-5)\n  size: 1,\n  // Space between title/subtitle\n  spaced: true\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "title",
+                              "value": "props.title",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "subtitle",
+                              "value": "props.subtitle",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "1",
+                              "isString": false,
+                              "type": "NumericLiteral"
+                            },
+                            {
+                              "key": "spaced",
+                              "value": "true",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            }
+                          ],
+                          "children": []
+                        },
+                        {
+                          "type": "instance",
+                          "subtype": "external-instance",
+                          "componentId": 7042691,
+                          "id": 8306429,
+                          "attributes": "{\n  // primary, secondary, success, danger,\n  // warning, info, light, dark, link\n\tvariant: props.buttonColor,\n  // sm, md, lg\n  size: \"lg\",\n  onClick: props.buttonOnClick\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "variant",
+                              "value": "props.buttonColor",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "lg",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "onClick",
+                              "value": "props.buttonOnClick",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "{props.buttonText}",
+                              "id": 7191163,
+                              "isVisible": true,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "HeroSection",
+      "nameStyleModule": "HeroSection",
+      "modulePath": "src/components/HeroSection"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Row",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Row",
+        "default": "Row"
+      },
+      "id": 9541476,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Row",
+      "nameStyleModule": "Row",
+      "modulePath": "react-bootstrap/Row"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Col",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Col",
+        "default": "Col"
+      },
+      "id": 9152506,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Col",
+      "nameStyleModule": "Col",
+      "modulePath": "react-bootstrap/Col"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Image",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Image",
+        "default": "Image"
+      },
+      "id": 4825682,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Image",
+      "nameStyleModule": "ImageComponent",
+      "modulePath": "react-bootstrap/Image"
+    },
+    {
+      "type": "component",
+      "subtype": "page-component",
+      "path": "",
+      "isVisible": true,
+      "code": "",
+      "description": "",
+      "requireAuth": false,
+      "id": 1762014,
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 3664463,
+          "attributes": "{\n  // Background and text color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  textColor: \"dark\",\n  // sm, md, lg\n  size: \"md\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n\t// Text content\n  title: \"Your landing page title here\",\n  subtitle: \"This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan.\",\n  buttonText: \"Get Started\",\n  // primary, secondary, success, danger,\n  // warning, info, light, dark, link\n  buttonColor: \"primary\",\n  // Image on left\n  image: \"https://uploads.divjoy.com/undraw-beer_celebration_cefj.svg\",\n  // Button onClick handler\n  buttonOnClick: () => {\n    // Navigate to pricing page\n    router.push('/pricing');\n  }\n}",
+          "isVisible": true,
+          "libraryName": "Hero Section",
+          "id": 3620976,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "textColor",
+              "value": "dark",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImage",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "1",
+              "isString": false,
+              "type": "NumericLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Your landing page title here",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan.",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Get Started",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonColor",
+              "value": "primary",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "image",
+              "value": "https://uploads.divjoy.com/undraw-beer_celebration_cefj.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonOnClick",
+              "value": "() => {\n  // Navigate to pricing page\n  router.push('/pricing');\n}",
+              "isString": false,
+              "type": "ArrowFunctionExpression"
+            }
+          ],
+          "children": []
+        },
+        {
+          "type": "instance",
+          "componentId": 2115492,
+          "attributes": "{\n  // Background and text color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  textColor: \"dark\",\n  // sm, md, lg\n  size: \"md\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n\t// Text content\n  title: \"Features\",\n  subtitle: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.\"\n}",
+          "isVisible": true,
+          "libraryName": "Features Section",
+          "id": 1862979,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "textColor",
+              "value": "dark",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImage",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "1",
+              "isString": false,
+              "type": "NumericLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Features",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "nameFormatted": "IndexPage",
+      "nameStyleModule": "IndexPage",
+      "modulePath": "src/pages/index"
+    },
+    {
+      "type": "component",
+      "subtype": "page-component",
+      "isVisible": true,
+      "code": "",
+      "description": "",
+      "requireAuth": false,
+      "id": 7875133,
+      "path": "choose",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 4840676,
+          "attributes": "{\n  // Background and text color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  textColor: \"dark\",\n  // sm, md, lg\n  size: \"md\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Featured Content\",\n  subtitle: \"\"\n}",
+          "isVisible": true,
+          "libraryName": "Content Cards Section",
+          "id": 6904037,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "textColor",
+              "value": "dark",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImage",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "1",
+              "isString": false,
+              "type": "NumericLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Featured Content",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "nameFormatted": "ChoosePage",
+      "nameStyleModule": "ChoosePage",
+      "modulePath": "src/pages/choose"
+    },
+    {
+      "type": "component",
+      "name": "Features Section",
+      "id": 2115492,
+      "tags": [
+        "Features",
+        "Popular"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 1219852,
+          "id": 4987131,
+          "attributes": "{\n\tbg: props.bg,\n  textColor: props.textColor,\n  size: props.size,\n  bgImage: props.bgImage,\n  bgImageOpacity: props.bgImageOpacity\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "textColor",
+              "value": "props.textColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImage",
+              "value": "props.bgImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "props.bgImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 5113959,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "instance",
+                  "componentId": 5118913,
+                  "id": 8724146,
+                  "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  // Text size (1-5)\n  size: 2,\n  // Space between title/subtitle\n  spaced: true,\n  className: \"text-center\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "size",
+                      "value": "2",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "spaced",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "text-center",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "type": "instance",
+                  "componentId": 52179,
+                  "attributes": "{\n  items: [\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-mind_map_cwng.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-personal_settings_kihd.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-having_fun_iais.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-balloons_vxx5.svg\"\n    }\n  ]\n}",
+                  "id": 3817850,
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-mind_map_cwng.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-personal_settings_kihd.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-having_fun_iais.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-balloons_vxx5.svg\"\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "FeaturesSection",
+      "nameStyleModule": "FeaturesSection",
+      "modulePath": "src/components/FeaturesSection"
+    },
+    {
+      "type": "component",
+      "name": "Features",
+      "id": 52179,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "code": "",
+      "children": [
+        {
+          "type": "element",
+          "tagName": "div",
+          "id": 9628149,
+          "style": "max-width: 900px;\nmargin: 60px auto 0 auto;\n\n.row {\n  // Reverse every other row\n\t&:nth-of-type(even) {\n  \tflex-direction: row-reverse;\n\t}\n\n\t&:not(:last-of-type) {\n  \tpadding-bottom: 1.5rem;\n  \t@media screen and (min-width: 769px) {\n    \tpadding-bottom: 2.5rem;\n  \t}\n\t}\n}",
+          "isVisible": true,
+          "attributes": "{\n\n}",
+          "image": "",
+          "name": "",
+          "classNames": [],
+          "classNameExpressions": [],
+          "propsArray": [],
+          "children": [
+            {
+              "type": "foreach",
+              "valName": "item",
+              "indexName": "index",
+              "objectName": "props.items",
+              "id": 2588807,
+              "isVisible": true,
+              "objectType": "array",
+              "children": [
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 9541476,
+                  "id": 6281647,
+                  "attributes": "{\n\tclassName: \"align-items-center\",\n  key: index\n}\t",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "className",
+                      "value": "align-items-center",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    },
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 9152506,
+                      "id": 9301972,
+                      "attributes": "{\n  xs: 12,\n  lg: 6\n}\t",
+                      "isVisible": true,
+                      "propsArray": [
+                        {
+                          "key": "xs",
+                          "value": "12",
+                          "isString": false,
+                          "type": "NumericLiteral"
+                        },
+                        {
+                          "key": "lg",
+                          "value": "6",
+                          "isString": false,
+                          "type": "NumericLiteral"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "type": "instance",
+                          "componentId": 5118913,
+                          "id": 9952121,
+                          "attributes": "{\n\ttitle: item.title,\n  subtitle: item.description,\n  // Space between title/subtitle\n  spaced: true,\n  // Text size (1-5)\n  size: 3,\n  className: \"text-center text-lg-left\"\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "title",
+                              "value": "item.title",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "subtitle",
+                              "value": "item.description",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "spaced",
+                              "value": "true",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            },
+                            {
+                              "key": "size",
+                              "value": "3",
+                              "isString": false,
+                              "type": "NumericLiteral"
+                            },
+                            {
+                              "key": "className",
+                              "value": "text-center text-lg-left",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 9152506,
+                      "id": 9254091,
+                      "attributes": "{\n\n}\t",
+                      "isVisible": true,
+                      "propsArray": [],
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "figure",
+                          "id": 7534256,
+                          "style": "max-width: 300px;\nmargin: 30px auto;",
+                          "name": "Image Container",
+                          "isVisible": true,
+                          "attributes": "{\n\n}",
+                          "image": "",
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "propsArray": [],
+                          "children": [
+                            {
+                              "type": "instance",
+                              "subtype": "external-instance",
+                              "componentId": 4825682,
+                              "id": 5275487,
+                              "attributes": "{\n\tsrc: item.image,\n  alt: item.title,\n  fluid: true\n}",
+                              "isVisible": true,
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "item.image",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "item.title",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "fluid",
+                                  "value": "true",
+                                  "isString": false,
+                                  "type": "BooleanLiteral"
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "Features",
+      "nameStyleModule": "Features",
+      "modulePath": "src/components/Features"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Card",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Card",
+        "default": "Card"
+      },
+      "id": 1026782,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Card",
+      "nameStyleModule": "CardComponent",
+      "modulePath": "react-bootstrap/Card"
+    },
+    {
+      "type": "component",
+      "name": "Content Cards",
+      "id": 5958189,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "subtype": "external-instance",
+          "componentId": 9541476,
+          "id": 1578618,
+          "attributes": "{\n\tclassName: \"justify-content-center\"\n}\t",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "className",
+              "value": "justify-content-center",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": [
+            {
+              "type": "foreach",
+              "valName": "item",
+              "objectName": "props.items",
+              "id": 5277600,
+              "indexName": "index",
+              "isVisible": true,
+              "objectType": "array",
+              "children": [
+                {
+                  "type": "instance",
+                  "subtype": "external-instance",
+                  "componentId": 9152506,
+                  "id": 7283380,
+                  "attributes": "{\n\txs: 12,\n  md: 6,\n  lg: 3,\n  className: \"py-3\",\n  key: index\n}\t",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "xs",
+                      "value": "12",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "md",
+                      "value": "6",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "lg",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "py-3",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    },
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "instance",
+                      "subtype": "external-instance",
+                      "componentId": 1026782,
+                      "id": 2068877,
+                      "attributes": "{\n\tas: \"a\",\n  text: \"dark\",\n  className: \"text-decoration-none\",\n  href: item.url\n}",
+                      "isVisible": true,
+                      "propsArray": [
+                        {
+                          "key": "as",
+                          "value": "a",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "text",
+                          "value": "dark",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "className",
+                          "value": "text-decoration-none",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "href",
+                          "value": "item.url",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "type": "instance",
+                          "componentId": 8631032,
+                          "id": 8591778,
+                          "attributes": "{\n  ratio: 1 / 0.75\n}",
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "ratio",
+                              "value": "1 / 0.75",
+                              "isString": false,
+                              "type": "BinaryExpression"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "type": "instance",
+                              "subtype": "external-instance",
+                              "componentId": 104678,
+                              "id": 7043352,
+                              "attributes": "{\n  src: item.image,\n \talt: item.title,\n  variant: \"top\"\n}",
+                              "isVisible": true,
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "item.image",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "item.title",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "variant",
+                                  "value": "top",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "instance",
+                          "subtype": "external-instance",
+                          "componentId": 107678,
+                          "id": 283356,
+                          "isVisible": true,
+                          "attributes": "{\n\n}",
+                          "propsArray": [],
+                          "children": [
+                            {
+                              "type": "instance",
+                              "subtype": "external-instance",
+                              "componentId": 723515,
+                              "id": 2337935,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "propsArray": [],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "{item.title}",
+                                  "id": 3519055,
+                                  "isVisible": true,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "instance",
+                              "subtype": "external-instance",
+                              "componentId": 2294156,
+                              "id": 7564243,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "propsArray": [],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "{item.body}",
+                                  "id": 1444111,
+                                  "isVisible": true,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "ContentCards",
+      "nameStyleModule": "ContentCards",
+      "modulePath": "src/components/ContentCards"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Card.Body",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Card",
+        "default": "Card"
+      },
+      "id": 107678,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Card.Body",
+      "nameStyleModule": "Card.Body",
+      "modulePath": "react-bootstrap/Card"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Card.Img",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Card",
+        "default": "Card"
+      },
+      "id": 104678,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Card.Img",
+      "nameStyleModule": "Card.Img",
+      "modulePath": "react-bootstrap/Card"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Card.Title",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Card",
+        "default": "Card"
+      },
+      "id": 723515,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Card.Title",
+      "nameStyleModule": "Card.Title",
+      "modulePath": "react-bootstrap/Card"
+    },
+    {
+      "type": "component",
+      "subtype": "external-component",
+      "name": "Card.Text",
+      "module": {
+        "moduleName": "react-bootstrap",
+        "modulePath": "react-bootstrap/Card",
+        "default": "Card"
+      },
+      "id": 2294156,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "children": [],
+      "nameFormatted": "Card.Text",
+      "nameStyleModule": "Card.Text",
+      "modulePath": "react-bootstrap/Card"
+    },
+    {
+      "type": "component",
+      "name": "Content Cards Section",
+      "id": 4840676,
+      "tags": [
+        "Content",
+        "Popular"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 1219852,
+          "id": 73153,
+          "attributes": "{\n\tbg: props.bg,\n  textColor: props.textColor,\n  size: props.size,\n  bgImage: props.bgImage,\n  bgImageOpacity: props.bgImageOpacity\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "textColor",
+              "value": "props.textColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImage",
+              "value": "props.bgImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "props.bgImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 6617798,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "instance",
+                  "componentId": 5118913,
+                  "id": 7709169,
+                  "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  // Text size (1-5)\n  size: 2,\n  // Space between title/subtitle\n  spaced: true,\n  className: \"text-center\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "size",
+                      "value": "2",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "spaced",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "text-center",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "type": "instance",
+                  "componentId": 5958189,
+                  "attributes": "{\n  items: [\n    {\n      image: 'https://source.unsplash.com/aHrxrT1q2h0/800x600',\n      title: 'Faucibus turpis in',\n      body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n      url: '/post/golden-gate'\n    },\n    {\n      image: 'https://source.unsplash.com/BkmdKnuAZtw/800x600',\n      title: 'Faucibus turpis in',\n      body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n      url: '/post/beach'\n    },\n    {\n      image: 'https://source.unsplash.com/3XN-BNRDUyY/800x600',\n      title: 'Faucibus turpis in',\n      body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n      url: '/post/road'\n    },\n    {\n      image: 'https://source.unsplash.com/eOcyhe5-9sQ/800x600',\n      title: 'Faucibus turpis in',\n      body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n      url: '/post/ballons'\n    }\n  ]\n}",
+                  "id": 3205058,
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    image: 'https://source.unsplash.com/aHrxrT1q2h0/800x600',\n    title: 'Faucibus turpis in',\n    body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n    url: '/post/golden-gate'\n  },\n  {\n    image: 'https://source.unsplash.com/BkmdKnuAZtw/800x600',\n    title: 'Faucibus turpis in',\n    body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n    url: '/post/beach'\n  },\n  {\n    image: 'https://source.unsplash.com/3XN-BNRDUyY/800x600',\n    title: 'Faucibus turpis in',\n    body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n    url: '/post/road'\n  },\n  {\n    image: 'https://source.unsplash.com/eOcyhe5-9sQ/800x600',\n    title: 'Faucibus turpis in',\n    body: 'Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.',\n    url: '/post/ballons'\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "ContentCardsSection",
+      "nameStyleModule": "ContentCardsSection",
+      "modulePath": "src/components/ContentCardsSection"
+    },
+    {
+      "type": "component",
+      "name": "AspectRatio",
+      "id": 8631032,
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "tags": [],
+      "code": "",
+      "children": [
+        {
+          "type": "element",
+          "tagName": "div",
+          "id": 9622067,
+          "style": "position: relative;\nwidth: 100%;\nheight: 0;",
+          "attributes": "{\n\tstyle: {\n    paddingBottom: (1 / props.ratio) * 100 + \"%\" \n  }\n}",
+          "name": "Outer",
+          "isVisible": true,
+          "image": "",
+          "classNames": [],
+          "classNameExpressions": [],
+          "propsArray": [
+            {
+              "key": "style",
+              "value": "{\npaddingBottom: (1 / props.ratio) * 100 + \"%\" \n}",
+              "isString": false,
+              "type": "ObjectExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "element",
+              "tagName": "div",
+              "id": 5749751,
+              "name": "Inner",
+              "style": "// Fill parent aspect ratio\nposition: absolute;\ntop: 0;\nright: 0;\nbottom: 0;\nleft: 0;\n// Center contents\ndisplay: flex;\nalign-items: center;\njustify-content: center;\noverflow: hidden;",
+              "isVisible": true,
+              "attributes": "{\n\n}",
+              "image": "",
+              "classNames": [],
+              "classNameExpressions": [],
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "children",
+                  "id": 7323624,
+                  "isVisible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "AspectRatio",
+      "nameStyleModule": "AspectRatio",
+      "modulePath": "src/components/AspectRatio"
+    },
+    {
+      "type": "component",
+      "subtype": "page-component",
+      "isVisible": true,
+      "code": "",
+      "description": "",
+      "requireAuth": false,
+      "id": 1980029,
+      "path": "form",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 4704983,
+          "attributes": "{\n  // Background and text color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  textColor: \"dark\",\n  // sm, md, lg\n  size: \"md\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"We help you make money\",\n  subtitle: \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!\"\n}",
+          "isVisible": true,
+          "libraryName": "Hero Section",
+          "id": 622793,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "textColor",
+              "value": "dark",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "md",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImage",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "1",
+              "isString": false,
+              "type": "NumericLiteral"
+            },
+            {
+              "key": "title",
+              "value": "We help you make money",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "nameFormatted": "FormPage",
+      "nameStyleModule": "FormPage",
+      "modulePath": "src/pages/form"
+    },
+    {
+      "type": "component",
+      "name": "Hero Section",
+      "id": 4704983,
+      "tags": [
+        "Hero",
+        "Content"
+      ],
+      "isVisible": true,
+      "nameLibrary": "",
+      "description": "",
+      "code": "",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 1219852,
+          "id": 9341732,
+          "attributes": "{\n\tbg: props.bg,\n  textColor: props.textColor,\n  size: props.size,\n  bgImage: props.bgImage,\n  bgImageOpacity: props.bgImageOpacity\n}",
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "bg",
+              "value": "props.bg",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "textColor",
+              "value": "props.textColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImage",
+              "value": "props.bgImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "bgImageOpacity",
+              "value": "props.bgImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ],
+          "children": [
+            {
+              "type": "instance",
+              "subtype": "external-instance",
+              "componentId": 2178390,
+              "id": 9099908,
+              "attributes": "{\n\n}\t",
+              "isVisible": true,
+              "propsArray": [],
+              "children": [
+                {
+                  "type": "instance",
+                  "componentId": 5118913,
+                  "id": 5157241,
+                  "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  // Text size (1-5)\n  size: 1,\n  // Space between title/subtitle\n  spaced: true,\n  className: \"text-center\"\n}",
+                  "isVisible": true,
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "size",
+                      "value": "1",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    },
+                    {
+                      "key": "spaced",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "className",
+                      "value": "text-center",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nameFormatted": "HeroSection2",
+      "nameStyleModule": "HeroSection2",
+      "modulePath": "src/components/HeroSection2"
+    }
+  ]
+}
