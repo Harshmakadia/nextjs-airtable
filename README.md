@@ -64,9 +64,6 @@ function MyComponent(){
 </p>
 </details>
 
-undefined
-
-undefined
 
 <details>
 <summary><b>Deployment</b></summary>
