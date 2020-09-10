@@ -5,8 +5,6 @@ import SectionHeader from "components/SectionHeader";
 import ContentCards from "components/ContentCards";
 
 function ContentCardsSection(props) {
-
-  console.log(props);
   return (
     <Section
       bg={props.bg}

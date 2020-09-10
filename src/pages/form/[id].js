@@ -19,10 +19,8 @@ class FormPage extends React.Component {
   }
 
   static async getInitialProps({query}) {
-    console.log(query)
     const res = await fetch(`${process.env.NEXT_PUBLIC_NO_CODE_ENDPOINT}?tableName=${query.id}`)
     const images = await res.json();
-    // console.log(images);
     let mindData = [];
     for(let i=0; i< images.records.length; i++){
       mindData.push({
@@ -50,7 +48,6 @@ class FormPage extends React.Component {
         url: `${process.env.NEXT_PUBLIC_NO_CODE_ENDPOINT}?tableName=${this.props.query.id}Response`,
         data: [Obj]
       }).then(function (response) {
-        console.log(response);
         _this.setState({
           showMessage: true,
           showMessageText: response.status=== 200 ? "Your Form is saved, Thank you! 🚀" : "oops something went wrong please try again"
